@@ -22,6 +22,6 @@ if __name__ == '__main__':
     ensemble = [x for x in range(domaine)]
     for x in ensemble:
         for y in ensemble:
-            if (x % 5 == y % 5):
+            if (x % 5 == y % 5): #Prédicat établissant la relation"
                 relation.append([x, y])
     devoir(relation, domaine)
